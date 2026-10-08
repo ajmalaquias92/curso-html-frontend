@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    width: 350px; 
+    background-color: #fff;
+    padding-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login-header i {
+    font-size: 98px;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.login-header h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.login-form {
+    padding: 0px 20px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.form-input i {
+    margin: 0 10px 0 0;
+    color: #888;
+} 
+
+.form-input input {
+     flex: 1;
+     border: none;
+     outline: none;
+
+    padding: 10px 6px 10px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-check {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-check input {
+    margin-right: 10px;
+}
+
+.form-check label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-check input:hover {
+    cursor: pointer;
+}
+
+.login-action button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0075FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login-action i {
+    margin-right: 8px;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(87, 87, 87, 0.671);
+    margin-top: 40px;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.login-footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;    
+}
