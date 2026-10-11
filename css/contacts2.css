@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list-wrapper {
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    width: 90%;
+    max-width: 960px;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.list-item {
+    flex-basis: 280px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    text-align: center;
+    background-color: #fff;
+    background-image: url(../img/thumb02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item__image img {
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 120px;
+}
+
+.list-item__content-name {
+    font-size: 20px;
+    color: #385555;
+}
+
+.list-item__content-email {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.list-item__action {
+    background-color: #ccc;
+    height: 40px;
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}

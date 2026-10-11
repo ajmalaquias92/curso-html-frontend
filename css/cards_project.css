@@ -1,0 +1,120 @@
+body {
+    background-color: #0C1014;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-color: #05080A;
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.header-nav {
+    padding-right: 16px;
+}
+
+.header-nav .header-nav__menu {
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav__menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.header-nav__menu a.header-nav__menu--active {
+    background-color: #CBE300;
+    color: #0C1014;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.header-nav__menu a:hover {
+    color: #CBE300;
+}
+
+.content-main__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 56px;
+    letter-spacing: 4px;
+}
+
+.content-pricing__plan {
+    display: flex;
+    gap: 16px;
+}
+
+.content-pricing__plan--card {
+    flex-grow: 1;
+    background-color: #1F262C;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 5px 8px -6px #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-pricing__plan--title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #CBE300;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.content-pricing__plan--price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-pricing__features {
+    padding-left: 18px;
+    color: #b5b5b5;
+    line-height: 1.5;
+    flex-grow: 1;
+    margin: 0 0 18px;
+}
+
+.content-pricing__features li::marker {
+    color: #CBE300;
+}
+
+.content-pricing__plan--cta {
+    text-decoration: none;
+    text-align: center;
+    background-color: #CBE300;
+    border-radius: 6px;
+    padding: 10px;
+    color: #0C1014;
+    font-weight: bold;
+}
+
+.content-pricing__plan--cta:hover {
+    background-color: transparent;
+    outline: 2px solid #CBE300;
+    color: #fff;
+}
